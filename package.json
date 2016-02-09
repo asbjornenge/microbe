@@ -1,6 +1,6 @@
 {
   "name": "@asbjornenge/microbe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WIP",
   "main": "lib.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "babel-register": "^6.5.1",
     "babel-cli": "^6.5.1"
   },
-  "babel" : {
+  "babel": {
     "presets": [
       "es2015"
     ],
@@ -36,5 +36,9 @@
       "syntax-async-functions",
       "transform-async-to-generator"
     ]
+  },
+  "dependencies": {
+    "micro": "^1.0.3",
+    "prometheus-client": "^0.1.1"
   }
 }
