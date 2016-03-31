@@ -8,8 +8,24 @@ Microbe is built on top of the fantastic [micro](https://github.com/zeithq/micro
 
 Microbe provides all the features of [micro](https://github.com/zeithq/micro#features) with a few additional ones:
 
-* **Logs**. Easy to append and expose logs.
-* **Metrics**. Easy to collect and expose metrics.
-* **Discovery**. Service discovery is baked in via [multicast-dns](https://github.com/mafintosh/multicast-dns)
+* **Logs**. Collect and expose logs.
+* **Metrics**. Collect and expose metrics.
+* **Discovery**. Service discovery via [multicast-dns](https://github.com/mafintosh/multicast-dns)
+
+## Example
+
+...coming zoon...
+
+## Logs
+
+[docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
+
+## Metrics
+
+[prometheus metrics](http://prometheus.io/)
+
+## Discovery
+
+[multicast-dns](https://github.com/mafintosh/multicast-dns)
 
 enjoy.
